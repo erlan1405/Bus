@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduled</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <section class="navbar">
+        <ul>
+            <li><a class="active" href="./home.html">Home</a></li>
+            <li><a href="./scheduled.html">Scheduled</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li style="float:right"><a href="#login">
+                    <img src="data:image/png;base64,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"
+                        alt="Login Icon" class="login-user" />Log In</a></li>
+        </ul>
+    </section>
+</head>
+
+<body>
+    <section class="scheduled">
+        <h2>Bus Scheduled</h2>
+        <table class=" table">
+            <tr>
+                <th></th>
+                <th>BUS A</th>
+                <th>BUS B</th>
+                <th>BUS C</th>
+            </tr>
+            <tr>
+                <td>MARKET</td>
+                <td>08:00</td>
+                <td>10:20</td>
+                <td>12:20</td>
+            </tr>
+            <tr>
+                <td>CINEMA</td>
+                <td>08:10</td>
+                <td>10:32</td>
+                <td>12:26</td>
+            </tr>
+            <tr>
+                <td>HOSPITAL</td>
+                <td>08:25</td>
+                <td>10:48</td>
+                <td>12:35</td>
+            </tr>
+            <tr>
+                <td>SCHOOL</td>
+                <td>08:47</td>
+                <td>11:10</td>
+                <td>13:11</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ipsum enim neque iure in recusandae porro pariatur soluta alias, laudantium, obcaecati quibusdam harum qui odit voluptatum? Vitae ratione incidunt id.</p>
+    </footer>
+</body>
+
+</html>

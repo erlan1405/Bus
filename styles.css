@@ -1,0 +1,64 @@
+/*Scheduled page styles*/
+.scheduled .table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+/*Home page styles*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.login-user {
+    height: 1em;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+}
+
+li {
+    float: left;
+    border-right: 1px solid gray;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: black;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 20px auto;
+}
+
+/*change icon size in Home page*/
+.social .icon {
+    width: 30px;
+    height: 30px;
+}
